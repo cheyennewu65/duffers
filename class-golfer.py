@@ -15,4 +15,7 @@ class Golfer:
 		self.__lname = lname
 		# call method to update name in database
 		
-	def set_email
+	def set_email(self,pemail,semail)
+		self.__pemail = pemail
+		self.__semail = semail
+		# call method to update email addresses in database
